@@ -1,6 +1,5 @@
 package BackEnd;
 
-
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import org.json.JSONException;
@@ -21,15 +20,6 @@ public class Processing {
 
     private static final String[] OUT = {"invalid", "invalid"};
 
-
-
-     /*static AsyncTask i = new AsyncTask() {
-        @Override
-        protected String run() {
-
-            return null;
-        }
-    }*/
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void go(Person pIn) {
