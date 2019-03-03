@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     try {
-                        TimeUnit.SECONDS.sleep(30);
+                        TimeUnit.SECONDS.sleep(0);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
